@@ -1,0 +1,31 @@
+body {
+  margin:0;
+  padding:0;
+  background-color:#E5E5E5;
+  font-family: 'Oswald', sans-serif;
+}
+
+.wavy-hr {
+  height: 5px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+  border:none;
+  width:75%;
+}
+
+span {
+  text-decoration:underline;
+  }
+
+/***COLOR SNIPPETS***/
+
+.color1 {
+  background-color: #f2436a;
+}
+.color2 {
+  background-color: #d97693;
+}
+.color3 {
+  background-color: #f86d;
+}
+
+ 

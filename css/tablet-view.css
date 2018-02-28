@@ -1,0 +1,120 @@
+ /***HEADER***/
+ header {
+  display:flex;
+  justify-content:space-between;
+}
+.logo {
+  height: 100px;
+  margin-left:12.5%;
+}
+#header-text {
+  display:flex;
+  flex-direction:column;
+  margin-right:12.5%;
+}
+h1 {
+  margin-bottom:0;
+}
+h2 {
+  margin-top:0;
+  margin-bottom:0;
+  font-size:115% 
+}
+.header-description {
+  font-size:75%;
+}
+
+/***MAIN1 (COLOR CODES AND SKETCH***/
+#main1 {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  margin-left:12.5%;
+  margin: 6%;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+#colors-section {
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+}
+.square {
+  margin-top:25px;
+  width: 100%;
+}
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.color1 {
+  order:1;
+}
+.color2 {
+  order:3;
+  margin-top:0;
+}
+.color3 {
+  order:5;
+  margin-top:0;
+}
+.hex1 {
+  order:2;
+  margin-top:0;
+}
+.hex2 {
+  order:4;
+  margin-top:0;
+}
+.hex3 {
+  order:6;
+  margin-top:0;
+}
+.portrait {
+  height:250px;
+  margin-top:30px;
+}
+.portrait-description {
+  width:40%;
+}
+
+/***PROJECT CARDS***/
+#projects-section {
+  display: flex;
+  justify-content:space-around;
+  margin:20px 6.25%;
+}
+.project a, .project {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.project-description {
+  width:70%;
+  border-radius: 5px;
+  margin-top:0;
+  text-align: center;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+}
+.project-image {
+  margin-top:0;
+  margin-bottom:0;
+  width:70%;
+  border-radius:5px;
+}
+
+/***FOOTER***/
+footer {
+  display:flex;
+  justify-content:space-around;
+  margin:0 6.25%;
+}
+footer p {
+  margin-top:0;
+}
+footer a {
+  margin-top:0;
+  border: 5px;
+}
