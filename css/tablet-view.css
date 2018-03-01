@@ -7,7 +7,7 @@
   height: 100px;
   margin-left:12.5%;
 }
-#header-text {
+.header-text {
   display:flex;
   flex-direction:column;
   margin-right:12.5%;
@@ -25,7 +25,7 @@ h2 {
 }
 
 /***MAIN1 (COLOR CODES AND SKETCH***/
-#main1 {
+.main1 {
   display:flex;
   justify-content:space-around;
   align-items:center;
@@ -34,7 +34,7 @@ h2 {
   margin-top:10px;
   margin-bottom: 10px;
 }
-#colors-section {
+.colors-section {
   display:flex;
   flex-direction:column;
   align-items:flex-start;
@@ -80,7 +80,7 @@ h2 {
 }
 
 /***PROJECT CARDS***/
-#projects-section {
+.projects-section {
   display: flex;
   justify-content:space-around;
   margin:20px 6.25%;

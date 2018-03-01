@@ -15,7 +15,7 @@ header {
 }
 
 /***MAIN1 (COLOR CODES AND SKETCH***/
-#colors-section {
+.colors-section {
   display:grid;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto auto;
@@ -39,21 +39,20 @@ header {
 .color3 {
   margin-bottom: 0;
 }
-#hex-container {
+.hex-container {
   margin-top:0;
   display:flex;
   justify-content:space-around;
 }
 .portrait {
   height:250px;
-  float:left;
 }
 .portrait-description {
   margin:10px 7px 20px 7px;
 }
 
 /***PROJECT CARDS***/
-#projects-section {
+.projects-section {
   display:inline-block;
   margin:10px auto;
 }
