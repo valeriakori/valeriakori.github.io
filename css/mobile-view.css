@@ -59,6 +59,8 @@ header {
 }
 .portrait {
   height:250px;
+  width:250px;
+  margin:0 auto;
 }
 .portrait-description {
   margin:10px 7px 20px;
